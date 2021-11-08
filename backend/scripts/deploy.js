@@ -3,52 +3,34 @@ const main = async () => {
   const gameContract = await gameContractFactory.deploy(
       //Name
       [
-        "Atum", "Ramses", "Meskhenet", //3
-    
-        "Ma'at", "Nafertari", "Seshat", //6
+        "Ma'at", "Tutankhamun", "Set",
         
-        "Set", "Tutankhamun", "Isis", //9
+        "Sobek", "Bastet", "Hapi", 
         
-        "Sobek", "Bastet", "Hapi", //12
-        
-        "Ptah", "Sokar", "Osiris", //15
-    
-        "Anubis", "Ra", "Horis" //18
+        "Osiris", "Isis",  "Ra",
     ],
 
     //Image URLs
-    [
-        "https://i.imgur.com/6eMV4iV.png", "https://i.imgur.com/e5Ynt6y.png", "https://i.imgur.com/XiDIvO4.png",
-    
-        "https://i.imgur.com/uHehjBx.png", "https://i.imgur.com/nRSqhYi.png", "https://i.imgur.com/TgMLHbl.png",
+    [   
+        "https://i.imgur.com/uHehjBx.png", "https://i.imgur.com/kDP9Ujw.png", "https://i.imgur.com/4UThf3N.png", 
         
-        "https://i.imgur.com/4UThf3N.png", "https://i.imgur.com/kDP9Ujw.png", "https://i.imgur.com/ZxDAMtb.png",
+         "https://i.imgur.com/0hdTjHq.png", "https://i.imgur.com/7Ur6SH1.png", "https://i.imgur.com/C89syN2.png",
         
-        "https://i.imgur.com/0hdTjHq.png", "https://i.imgur.com/7Ur6SH1.png", "https://i.imgur.com/C89syN2.png",
-        
-        "https://i.imgur.com/Wff4ZhX.png", "https://i.imgur.com/n2qIJTV.png", "https://i.imgur.com/cxu2m8w.png",
-    
-        "https://i.imgur.com/utm3Dz0.png", "https://i.imgur.com/VIB7RXq.png", "https://i.imgur.com/bmWTakR.png"
+        "https://i.imgur.com/cxu2m8w.png", "https://i.imgur.com/ZxDAMtb.png", "https://i.imgur.com/VIB7RXq.png",
     ],
 
     //Hp Values
     [
-        400, 800, 200,
-        700, 300, 600,
-        900, 1000, 700,
-        700, 500, 800,
-        2000, 2000, 2000,
-        900, 900, 900   
+        400, 600, 1000,
+        700, 700, 900,
+        2000, 500, 800,
     ],
 
     //Attck Damage
     [
-        100, 500, 200,
-        300, 100, 300,
-        400, 1000, 400,
-        400, 500, 300,
-        100, 100, 10,
-        600, 600, 600   
+        100, 300, 100,
+        500, 500, 200,
+        100, 400, 1000,
     ],
     //Boss Name
     "Ammit - Devourer of Souls - Eater of Hearts",

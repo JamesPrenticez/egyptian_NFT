@@ -14,7 +14,7 @@ import "@openzeppelin/contracts/utils/Counters.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
 
 // Our contract inherits from ERC721, which is the standard NFT contract!
-contract NFTGame1 is ERC721 {
+contract NFTGame is ERC721 {
   // We'll hold our character's attributes in a struct. Feel free to add
   // whatever you'd like as an attribute! (ex. defense, crit chance, etc).
   struct CharacterAttributes{
