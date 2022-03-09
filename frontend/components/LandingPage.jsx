@@ -3,6 +3,13 @@ const data = ["Maat", "Ra", "Tutankhamun", "Osiris"]
 function LandingPage() {
     return (
         <>
+            <h1 className="text-6xl font-bold">
+              Welcome to
+            </h1>
+            <p className="text-6xl font-bold bg-gradient-to-r from-yellow-400 to-red-400 text-transparent bg-clip-text leading-relaxed">
+              {" "}
+              Ancient Egyptian NFT's!
+            </p>
             <div className="p-4 font-bold text-xl">
                 <p>⚔️ Pick a Hero to help slay Ammit - The Devourer of Souls ⚔️</p>
             </div>
@@ -22,7 +29,7 @@ function LandingPage() {
                     <img className="h-auto w-2/6 filter hover:drop-shadow-green" src={`${data[2]}.png`} />
                 </div>
                 <div onClick={() => selectWhichNFT(`${data[4]}`)} className="h-full w-full grid justify-items-center items-end hover:cursor-pointer">
-                    <img className="h-auto w-2/6 filter hover:drop-shadow-blue" src={`${data[3]}.png`} />
+                    <img className="h-auto w-2/6 filter hover:drop-shadow-white" src={`${data[3]}.png`} />
                 </div>
             </div>
         </>
